@@ -1,0 +1,35 @@
+{
+  "name": "@cca-io/re-logger",
+  "version": "0.1.4",
+  "description": "Simple logger library for Reason/BuckleScript apps",
+  "main": "src/Logger.bs.js",
+  "repository": "https://github.com/cca-io/re-logger.git",
+  "author": "Christoph Knittel <ck@cca.io>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "bs:build": "bsb",
+    "bs:clean": "bsb -clean",
+    "format": "bsrefmt --in-place src/*.re"
+  },
+  "peerDependencies": {
+    "bs-platform": "^4.0.6"
+  },
+  "devDependencies": {
+    "bs-platform": "^4.0.6"
+  },
+  "files": [
+    "src",
+    "bsconfig.json"
+  ],
+  "keywords": [
+    "react",
+    "reason",
+    "reasonml",
+    "log",
+    "logger",
+    "logging",
+    "ocaml",
+    "bucklescript"
+  ]
+}
