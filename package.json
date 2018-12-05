@@ -1,6 +1,6 @@
 {
   "name": "@cca-io/re-logger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple logger library for Reason/BuckleScript apps",
   "main": "src/ReLogger.bs.js",
   "repository": "https://github.com/cca-io/re-logger.git",
