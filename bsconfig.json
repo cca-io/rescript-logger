@@ -1,6 +1,5 @@
 {
-  "name": "re-logger",
-  "namespace": true,
+  "name": "@cca-io/re-logger",
   "sources": ["src"],
   "reason": {
     "react-jsx": 2
