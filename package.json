@@ -2,7 +2,7 @@
   "name": "@cca-io/re-logger",
   "version": "1.0.0",
   "description": "Simple logger library for Reason/BuckleScript apps",
-  "main": "src/Logger.bs.js",
+  "main": "src/ReLogger.bs.js",
   "repository": "https://github.com/cca-io/re-logger.git",
   "author": "Christoph Knittel <ck@cca.io>",
   "license": "MIT",
