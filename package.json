@@ -1,6 +1,6 @@
 {
   "name": "@cca-io/re-logger",
-  "version": "0.1.4",
+  "version": "1.0.0",
   "description": "Simple logger library for Reason/BuckleScript apps",
   "main": "src/Logger.bs.js",
   "repository": "https://github.com/cca-io/re-logger.git",
@@ -23,7 +23,6 @@
     "bsconfig.json"
   ],
   "keywords": [
-    "react",
     "reason",
     "reasonml",
     "log",
