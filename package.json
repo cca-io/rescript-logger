@@ -1,6 +1,6 @@
 {
   "name": "@cca-io/re-logger",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Simple logger library for Reason/BuckleScript apps",
   "main": "src/ReLogger.bs.js",
   "repository": "https://github.com/cca-io/re-logger.git",
@@ -13,10 +13,10 @@
     "format": "bsrefmt --in-place src/*.re"
   },
   "peerDependencies": {
-    "bs-platform": "^4.0.6"
+    "bs-platform": ">=5.0.4"
   },
   "devDependencies": {
-    "bs-platform": "^4.0.6"
+    "bs-platform": "^5.0.4"
   },
   "files": [
     "src",
