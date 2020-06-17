@@ -11,7 +11,7 @@ module type LoggerImpl = {
 
 module DefaultImpl: LoggerImpl = {
   [@bs.val] [@bs.scope "process.env"] external nodeEnv: string = "NODE_ENV";
-  [@bs.send] external padStart: (string, int, string) => string = "";
+  [@bs.send] external padStart: (string, int, string) => string = "padStart";
 
   let prependDate = message => {
     let now = Js.Date.make();

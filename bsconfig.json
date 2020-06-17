@@ -1,11 +1,6 @@
 {
   "name": "@cca-io/re-logger",
   "sources": ["src"],
-  "reason": {
-    "react-jsx": 2
-  },
-  "refmt": 3,
-  "bsc-flags": ["-bs-super-errors"],
   "package-specs": {
     "module": "commonjs",
     "in-source": true

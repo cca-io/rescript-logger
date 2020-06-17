@@ -16,7 +16,7 @@
     "bs-platform": ">=5.0.4"
   },
   "devDependencies": {
-    "bs-platform": "^5.0.4"
+    "bs-platform": "^8.0.0"
   },
   "files": [
     "src",
