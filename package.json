@@ -1,34 +1,32 @@
 {
-  "name": "@cca-io/re-logger",
-  "version": "1.2.0",
-  "description": "Simple logger library for Reason/BuckleScript apps",
-  "main": "src/ReLogger.bs.js",
-  "repository": "https://github.com/cca-io/re-logger.git",
+  "name": "@cca-io/rescript-logger",
+  "version": "2.0.0",
+  "description": "Simple logger library for ReScript apps",
+  "main": "src/ResLogger.res",
+  "repository": "https://github.com/cca-io/rescript-logger.git",
   "author": "Christoph Knittel <ck@cca.io>",
   "license": "MIT",
   "private": false,
   "scripts": {
-    "bs:build": "bsb",
-    "bs:clean": "bsb -clean",
-    "format": "bsrefmt --in-place src/*.re"
+    "build": "rescript build",
+    "watch": "rescript build -w",
+    "clean": "rescript clean",
+    "format": "rescript format -all"
   },
   "peerDependencies": {
-    "bs-platform": ">=5.0.4"
+    "rescript": ">=9.1.2"
   },
   "devDependencies": {
-    "bs-platform": "^8.0.0"
+    "rescript": "^9.1.2"
   },
   "files": [
     "src",
     "bsconfig.json"
   ],
   "keywords": [
-    "reason",
-    "reasonml",
+    "rescript",
     "log",
     "logger",
-    "logging",
-    "ocaml",
-    "bucklescript"
+    "logging"
   ]
 }

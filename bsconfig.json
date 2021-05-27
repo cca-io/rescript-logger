@@ -1,8 +1,8 @@
 {
-  "name": "@cca-io/re-logger",
+  "name": "@cca-io/rescript-logger",
   "sources": ["src"],
   "package-specs": {
-    "module": "commonjs",
+    "module": "es6",
     "in-source": true
   },
   "suffix": ".bs.js"
